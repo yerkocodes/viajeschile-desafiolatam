@@ -19,6 +19,16 @@ body {
   background-color: black;
 }
 
+/* ZOOM */
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* 1 = 100% */
+}
+/* ZOOM-END */
+
 /* Navbar */
 .navbar-brand {
   font-size: 2.5rem;
