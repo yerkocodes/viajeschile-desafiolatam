@@ -67,6 +67,12 @@ body {
 }
 /* Quienes-Somos-End */
 
+/* Destacados */
+.tooltip {
+  font-size: 1.5rem;
+}
+/* Destacados-End */
+
 /* Footer */
 #footer {
   background-color: var(--blue-color-brand);
