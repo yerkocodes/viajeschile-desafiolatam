@@ -9,6 +9,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +22,19 @@ body {
 /* Navbar */
 .navbar-brand {
   font-size: 2.5rem;
+}
+
+.navbar-toggler {
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.navbar-toggler-icon {
+  padding: 20px;
+}
+
+.nav-link {
+  margin: 0 5px;
 }
 /* Navbar-End */
 
