@@ -1,3 +1,7 @@
+:root {
+  --blue-color-brand: #17A3B8;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -22,7 +26,7 @@ body {
 
 /* Quienes-Somos */
 .parrafo-icon {
-  background-color: #17A3B8;
+  background-color: var(--blue-color-brand);
 }
 
 .parrafo-icon i{
@@ -30,11 +34,21 @@ body {
   margin: 5px 0;
 }
 
-.quienes-somos-title {
-  border-bottom: 2px solid #17A3B8;
+.section-title {
+  border-bottom: 2px solid var(--blue-color-brand);
 }
 
-.quienes-somos-title h3 {
+.section-title h3 {
   font-size: 3rem;
+}
+
+.card {
+  background-color: var(--blue-color-brand);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 2rem;
 }
 /* Quienes-Somos-End */
