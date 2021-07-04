@@ -52,3 +52,21 @@ body {
   font-size: 2rem;
 }
 /* Quienes-Somos-End */
+
+/* Footer */
+#footer {
+  background-color: var(--blue-color-brand);
+}
+
+#footer a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.social-icons i {
+  margin: 0 5px;
+}
+/* Footer-End */
